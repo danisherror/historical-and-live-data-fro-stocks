@@ -40,7 +40,6 @@ import json
 #     beautified_json = json.dumps(formatted_data, indent=4)
 #     with open('data.txt', 'w') as f:
 #         f.write(f"{beautified_json}\n")
-    
 #     break
 ######################################################################################
 
