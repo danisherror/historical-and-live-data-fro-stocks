@@ -118,6 +118,29 @@ for ticker in invalid_df:
         f.write(f"{beautified_json}\n")
 ```
 
+```python
+[
+    {
+        "Date": "1996-01-01",
+        "Open": 14.638,
+        "High": 14.717,
+        "Low": 14.542,
+        "Close": 14.692,
+        "Adj Close": 9.302,
+        "Volume": 52060684
+    },
+    {
+        "Date": "1996-01-02",
+        "Open": 14.656,
+        "High": 14.728,
+        "Low": 14.47,
+        "Close": 14.578,
+        "Adj Close": 9.23,
+        "Volume": 84371654
+    },
+]
+```
+
 ---
 # <span style="color:rgb(0, 32, 96)">Get historical data  for last month with 5 min interval</span>
 ---
@@ -153,6 +176,31 @@ for ticker in invalid_df:
     beautified_json = json.dumps(formatted_data, indent=4)
     with open('data.txt', 'w') as f:
         f.write(f"{beautified_json}\n")
+```
+
+```python
+[
+    {
+        "Date": "2024-07-19",
+        "Time": "09:15:00",
+        "Open": 3164.35,
+        "High": 3167.0,
+        "Low": 3148.0,
+        "Close": 3149.9,
+        "Adj Close": 3149.9,
+        "Volume": 0
+    },
+    {
+        "Date": "2024-07-19",
+        "Time": "09:20:00",
+        "Open": 3148.95,
+        "High": 3153.05,
+        "Low": 3138.6,
+        "Close": 3140.0,
+        "Adj Close": 3140.0,
+        "Volume": 260929
+    },
+]
 ```
 
 ---
@@ -191,6 +239,30 @@ for ticker in invalid_df:
     with open('data.txt', 'w') as f:
         f.write(f"{beautified_json}\n")
 ```
+```python
+[
+    {
+        "Date": "2024-08-12",
+        "Time": "09:15:00",
+        "Open": 2937.95,
+        "High": 2937.95,
+        "Low": 2928.1,
+        "Close": 2931.3,
+        "Adj Close": 2931.3,
+        "Volume": 0
+    },
+    {
+        "Date": "2024-08-12",
+        "Time": "09:20:00",
+        "Open": 2930.6,
+        "High": 2942.15,
+        "Low": 2929.75,
+        "Close": 2936.75,
+        "Adj Close": 2936.75,
+        "Volume": 69478
+    },
+]
+```
 
 ---
 # <span style="color:rgb(0, 32, 96)"> Get historical data  for today with 5 min interval
@@ -224,6 +296,31 @@ for ticker in invalid_df:
     beautified_json = json.dumps(formatted_data, indent=4)
     with open('data.txt', 'w') as f:
         f.write(f"{beautified_json}\n")
+```
+
+```python
+[
+    {
+        "Date": "2024-08-16",
+        "Time": "09:15:00",
+        "Open": 2938.4,
+        "High": 2943.55,
+        "Low": 2935.9,
+        "Close": 2943.2,
+        "Adj Close": 2943.2,
+        "Volume": 0
+    },
+    {
+        "Date": "2024-08-16",
+        "Time": "09:20:00",
+        "Open": 2943.45,
+        "High": 2955.0,
+        "Low": 2943.2,
+        "Close": 2953.15,
+        "Adj Close": 2953.15,
+        "Volume": 139618
+    },
+]
 ```
 
 ---
